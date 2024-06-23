@@ -2,5 +2,5 @@
 mkdir ~/.screen && chmod 700 ~/.screen
 export SCREENDIR=$HOME/.screen
 #sed -i -e 's/$PORT/'"$PORT"'/g' /etc/nginx/conf.d/default.conf
-sed -i -e 's/$PORT/'"3001"'/g' /etc/nginx/conf.d/default.conf
+#sed -i -e 's/$PORT/'"3001"'/g' /etc/nginx/conf.d/default.conf
 supervisord -c /etc/supervisord.conf
